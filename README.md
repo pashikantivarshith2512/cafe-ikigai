@@ -30,36 +30,7 @@
 
 ---
 
-## Folder Structure
 
-```
-black-project/
-├── frontend/             # Next.js App Router Customer Website & Admin Dashboard
-│   ├── src/
-│   │   ├── app/          # Customer pages & /admin routes
-│   │   ├── components/   # UI, Layout, Home, Cart Drawer, AI Chatbot
-│   │   ├── context/      # AuthContext, CartContext, ThemeContext
-│   │   ├── services/     # API Client
-│   │   └── types/        # TypeScript Definitions
-│   ├── tailwind.config.ts
-│   └── package.json
-├── backend/              # Node.js Express REST API & Prisma Service
-│   ├── prisma/
-│   │   ├── schema.prisma # PostgreSQL Data Models
-│   │   └── seed.ts       # Database Seeding Script
-│   ├── src/
-│   │   ├── config/       # Environment & Prisma client
-│   │   ├── middleware/   # Auth, Admin RBAC, Zod Validation, Error Handler
-│   │   ├── routes/       # Auth, Menu, Orders, Reservations, Reviews, Gallery, AI, Admin
-│   │   └── utils/        # Hash, JWT
-│   ├── package.json
-│   └── tsconfig.json
-├── README.md
-├── .gitignore
-└── .env.example
-```
-
----
 
 ## PostgreSQL Database Setup & Seeding
 
