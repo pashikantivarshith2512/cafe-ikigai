@@ -36,7 +36,7 @@
 
 1. Configure your PostgreSQL connection string in `backend/.env`:
    ```env
-   DATABASE_URL="postgresql://username:password@localhost:5432/ikigai_db"
+   "
    ```
 
 2. Run Prisma schema generation and push migrations:
@@ -53,14 +53,6 @@
 
 ---
 
-## Default Credentials (Development)
-
-- **Admin Account:**
-  - Email: `admin@cafeikigai.com`
-  - Password: `AdminPassword123!`
-- **Sample Customer Account:**
-  - Email: `customer@cafeikigai.com`
-  - Password: `CustomerPassword123!`
 
 ---
 
